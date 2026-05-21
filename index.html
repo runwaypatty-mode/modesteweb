@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-LEARNING AND ENTERTAINMENT WEBSITE</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header class="header">
+<div class="container nav-container">
+<div class="logo">
+<i class="fas fa-graduation-cap"></i>
+<span>E-Learning Hub</span>
+</div>
+<nav class="nav-menu">
+<a href="#home" class="nav-link">Home</a>
+<a href="#about" class="nav-link">About</a>
+<a href="#services" class="nav-link">Services</a>
+<a href="file:///D:/PATTYRUNWAY/note/Trainee%20manual%20L3SOD/TeM_SWDWD301_Website%20Development.pdf">Books</a>
+<a href="import numpy as np
+from PIL import Image
+
+# image paths
+img1_path = "/mnt/data/f290c93c-7bc4-47b9-8145-74b639b041de.jpg"
+img2_path = "/mnt/data/a213fbf3-546e-405e-b309-f3d4d9bab134.jpg"
+
+# open images
+img1 = Image.open(img1_path)
+img2 = Image.open(img2_path)
+
+# convert to NumPy arrays
+arr1 = np.array(img1)
+arr2 = np.array(img2)
+
+print(arr1.shape)
+print(arr2.shape)">Gallery</a>
+<a href="#contact" class="nav-link">Contact</a>
+<a href="login.html" class="nav-link btn-login">Login</a>
+</nav>
+<div class="hamburger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+<div class="hero-content">
+<h1 class="animate-fade-in">E-LEARNING AND ENTERTAINMENT WEBSITE</h1>
+<p class="animate-slide-up">Education • ICT • Multimedia • Music</p>
+<div class="hero-buttons animate-fade-in-up">
+<a href="login.html" class="btn btn-primary">Login to Dashboard</a>
+<a href="register.html" class="btn btn-secondary">Create Free Account</a>
+</div>
+<div class="hero-shapes">
+<div class="shape shape-1"></div>
+<div class="shape shape-2"></div>
+<div class="shape shape-3"></div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta">
+<div class="container">
+<h2 class="animate-on-scroll">Join The Future Of Digital Learning 🚀</h2>
+<p class="animate-on-scroll">Access premium ICT tutorials, RTB software development books, multimedia content and powerful educational resources all in one place.</p>
+<div class="cta-buttons animate-on-scroll">
+<a href="register.html" class="btn btn-primary">Create Free Account</a>
+</div>
+</section>
+
+<!-- Features Section -->
+<section class="features" id="about">
+<div class="container">
+<h2 class="section-title animate-on-scroll">Why Choose Our Platform?</h2>
+<div class="feature-grid">
+<div class="feature-box animate-on-scroll" style="animation-delay: 0.1s;">
+<div class="feature-icon">
+<i class="fas fa-book-open"></i>
+</div>
+<h3>📚 Smart Learning</h3>
+<p>Structured e-learning materials for students and developers.</p>
+</div>
+<div class="feature-box animate-on-scroll" style="animation-delay: 0.2s;">
+<div class="feature-icon">
+<i class="fas fa-laptop-code"></i>
+</div>
+<h3>💻 Practical ICT</h3>
+<p>Hands-on tutorials and real-world software development guides.</p>
+</div>
+<div class="feature-box animate-on-scroll" style="animation-delay: 0.3s;">
+<div class="feature-icon">
+<i class="fas fa-music"></i>
+</div>
+<h3>🎵 Entertainment Hub</h3>
+<p>Music and multimedia resources to relax and stay inspired.</p>
+</div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+<div class="container">
+<h2 class="section-title animate-on-scroll">Our Services</h2>
+<div class="service-buttons animate-on-scroll">
+<div class="service-btn" onclick="showService('elearning')">
+<i class="fas fa-book"></i>
+<span>E-learning Materials</span>
+</div>
+<div class="service-btn" onclick="showService('books')">
+<i class="fas fa-book-reader"></i>
+<span>RTB Software Development Books</span>
+</div>
+<div class="service-btn" onclick="showService('tutorials')">
+<i class="fas fa-code"></i>
+<span>ICT Tutorials</span>
+</div>
+<div class="service-btn" onclick="showService('multimedia')">
+<i class="fas fa-play-circle"></i>
+<span>Music & Multimedia</span>
+</div>
+</div>
+</section>
+
+<!-- Books Section -->
+<section class="books" id="books">
+<div class="container">
+<h2 class="section-title animate-on-scroll">RTB Software Development Books</h2>
+<div class="book-grid" id="bookGrid">
+<!-- Books will be loaded from JavaScript -->
+</div>
+</section>
+
+<!-- Gallery Section -->
+<section class="gallery" id="gallery">
+<div class="container">
+<h2 class="section-title animate-on-scroll">Gallery</h2>
+<div class="photo-grid" id="galleryGrid">
+<!-- Gallery images will be loaded from JavaScript -->
+</div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+<div class="container">
+<h2 class="section-title animate-on-scroll" style="color: #ff4b2b;">Contact Me</h2>
+<div class="contact-wrapper">
+<div class="contact-info animate-on-scroll">
+<h3>Get In Touch</h3>
+<p><i class="fas fa-envelope"></i> rurangwabugabomodeste@gmail.com</p>
+<p><i class="fab fa-whatsapp"></i> +250 735640974</p>
+<p><i class="fas fa-user"></i> RURANGWABUGABO MODESTE</p>
+</div>
+<form class="contact-form animate-on-scroll" id="contactForm">
+<div class="form-success" id="formSuccess"></div>
+<div class="form-group">
+<input type="text" id="contactName" placeholder="Your Name" required>
+</div>
+<div class="form-group">
+<input type="email" id="contactEmail" placeholder="Your Email" required>
+</div>
+<div class="form-group">
+<textarea id="contactMessage" rows="5" placeholder="Your Message" required></textarea>
+</div>
+<button type="submit" class="btn btn-primary">Send Message</button>
+</form>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-content">
+<div class="footer-section">
+<h3>E-Learning Hub</h3>
+<p>Your gateway to digital learning and entertainment.</p>
+<div class="social-links">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+</div>
+<div class="footer-section">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Services</h3>
+<ul>
+<li><a href="#">E-learning Materials</a></li>
+<li><a href="#">RTB Books</a></li>
+<li><a href="#">ICT Tutorials</a></li>
+<li><a href="#">Multimedia</a></li>
+</ul>
+</div>
+<div class="footer-bottom">
+<p>© 2024 E-Learning Hub. All Rights Reserved.</p>
+<p>Owned by <strong>RURANGWABUGABO MODESTE</strong></p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
